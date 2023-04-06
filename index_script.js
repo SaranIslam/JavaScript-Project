@@ -48,7 +48,6 @@ for(i=0;i<lotto;i++){
 function display(elementId, celc){
     document.getElementById(elementId).innerHTML = celc
 }
-display("calc",F2C(150))
 function F2C(frh){
     var value = (frh-32)*5/9
      return value.toFixed(2)+" C"
@@ -57,3 +56,4 @@ var xcv
 function convert(xcv){
     alert(F2C(xcv))
 }
+display("calc",value)
